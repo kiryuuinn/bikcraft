@@ -53,3 +53,20 @@
 .font-2-s-xs {
     font: 400 0.875rem/1.43 'Roboto', sans-serif;
 }
+
+@media (max-width: 1200px) {
+    .font-1-xxl {
+        font-size: 3rem;
+    }
+
+    .font-2-l,
+    .font-1-m-b {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .font-1-xxl {
+        font-size: 2rem;
+    }
+}
